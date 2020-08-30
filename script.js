@@ -4,7 +4,7 @@ const words = ["Amazing", "Epic", "Fantastic", "Incredibal", "Unbelivable", "Mar
 var repititions = 30;
 var curr = 0;
 
-setTimeout(SetWord, 300)
+setTimeout(SetWord, 1000)
 
 
 function SetWord(){
@@ -13,7 +13,7 @@ function SetWord(){
     title.innerHTML = "You are " + words[randomNumber-1];
     if(curr < repititions){
         curr+=1;
-        setTimeout(SetWord,300);
+        setTimeout(SetWord,1000);
     }
 
 }
