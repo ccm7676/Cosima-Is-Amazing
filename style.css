@@ -1,0 +1,28 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Chango', regular;
+    color: #ffffff;
+   
+}
+
+body{
+    background-color: #c741b5;
+    
+}
+
+h2{
+    top: 40%;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%, -50%);
+}
+h1{
+    top: 50%;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    color: rgb(11, 175, 175);
+}
+
